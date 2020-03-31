@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9610C7102433A44A0061C757 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610C70F2433A44A0061C757 /* AppDelegate.swift */; };
+		9610C7122433A44A0061C757 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610C7112433A44A0061C757 /* ViewController.swift */; };
+		9610C7142433A44B0061C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9610C7132433A44B0061C757 /* Assets.xcassets */; };
+		9610C7172433A44B0061C757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9610C7152433A44B0061C757 /* Main.storyboard */; };
+		9610C7232433A44B0061C757 /* NSLayoutConstraint_Animation_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610C7222433A44B0061C757 /* NSLayoutConstraint_Animation_macOSTests.swift */; };
+		9610C72E2433A44B0061C757 /* NSLayoutConstraint_Animation_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9610C72D2433A44B0061C757 /* NSLayoutConstraint_Animation_macOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9610C71F2433A44B0061C757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9610C7042433A44A0061C757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9610C70B2433A44A0061C757;
+			remoteInfo = "NSLayoutConstraint-Animation-macOS";
+		};
+		9610C72A2433A44B0061C757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9610C7042433A44A0061C757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9610C70B2433A44A0061C757;
+			remoteInfo = "NSLayoutConstraint-Animation-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9610C70C2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSLayoutConstraint-Animation-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9610C70F2433A44A0061C757 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9610C7112433A44A0061C757 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9610C7132433A44B0061C757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9610C7162433A44B0061C757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9610C7182433A44B0061C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9610C7192433A44B0061C757 /* NSLayoutConstraint_Animation_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSLayoutConstraint_Animation_macOS.entitlements; sourceTree = "<group>"; };
+		9610C71E2433A44B0061C757 /* NSLayoutConstraint-Animation-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSLayoutConstraint-Animation-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9610C7222433A44B0061C757 /* NSLayoutConstraint_Animation_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint_Animation_macOSTests.swift; sourceTree = "<group>"; };
+		9610C7242433A44B0061C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9610C7292433A44B0061C757 /* NSLayoutConstraint-Animation-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSLayoutConstraint-Animation-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9610C72D2433A44B0061C757 /* NSLayoutConstraint_Animation_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint_Animation_macOSUITests.swift; sourceTree = "<group>"; };
+		9610C72F2433A44B0061C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9610C7092433A44A0061C757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9610C71B2433A44B0061C757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9610C7262433A44B0061C757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9610C7032433A44A0061C757 = {
+			isa = PBXGroup;
+			children = (
+				9610C70E2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS */,
+				9610C7212433A44B0061C757 /* NSLayoutConstraint-Animation-macOSTests */,
+				9610C72C2433A44B0061C757 /* NSLayoutConstraint-Animation-macOSUITests */,
+				9610C70D2433A44A0061C757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9610C70D2433A44A0061C757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9610C70C2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS.app */,
+				9610C71E2433A44B0061C757 /* NSLayoutConstraint-Animation-macOSTests.xctest */,
+				9610C7292433A44B0061C757 /* NSLayoutConstraint-Animation-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9610C70E2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9610C70F2433A44A0061C757 /* AppDelegate.swift */,
+				9610C7112433A44A0061C757 /* ViewController.swift */,
+				9610C7132433A44B0061C757 /* Assets.xcassets */,
+				9610C7152433A44B0061C757 /* Main.storyboard */,
+				9610C7182433A44B0061C757 /* Info.plist */,
+				9610C7192433A44B0061C757 /* NSLayoutConstraint_Animation_macOS.entitlements */,
+			);
+			path = "NSLayoutConstraint-Animation-macOS";
+			sourceTree = "<group>";
+		};
+		9610C7212433A44B0061C757 /* NSLayoutConstraint-Animation-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9610C7222433A44B0061C757 /* NSLayoutConstraint_Animation_macOSTests.swift */,
+				9610C7242433A44B0061C757 /* Info.plist */,
+			);
+			path = "NSLayoutConstraint-Animation-macOSTests";
+			sourceTree = "<group>";
+		};
+		9610C72C2433A44B0061C757 /* NSLayoutConstraint-Animation-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9610C72D2433A44B0061C757 /* NSLayoutConstraint_Animation_macOSUITests.swift */,
+				9610C72F2433A44B0061C757 /* Info.plist */,
+			);
+			path = "NSLayoutConstraint-Animation-macOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9610C70B2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9610C7322433A44B0061C757 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Animation-macOS" */;
+			buildPhases = (
+				9610C7082433A44A0061C757 /* Sources */,
+				9610C7092433A44A0061C757 /* Frameworks */,
+				9610C70A2433A44A0061C757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSLayoutConstraint-Animation-macOS";
+			productName = "NSLayoutConstraint-Animation-macOS";
+			productReference = 9610C70C2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9610C71D2433A44B0061C757 /* NSLayoutConstraint-Animation-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9610C7352433A44B0061C757 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Animation-macOSTests" */;
+			buildPhases = (
+				9610C71A2433A44B0061C757 /* Sources */,
+				9610C71B2433A44B0061C757 /* Frameworks */,
+				9610C71C2433A44B0061C757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9610C7202433A44B0061C757 /* PBXTargetDependency */,
+			);
+			name = "NSLayoutConstraint-Animation-macOSTests";
+			productName = "NSLayoutConstraint-Animation-macOSTests";
+			productReference = 9610C71E2433A44B0061C757 /* NSLayoutConstraint-Animation-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9610C7282433A44B0061C757 /* NSLayoutConstraint-Animation-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9610C7382433A44B0061C757 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Animation-macOSUITests" */;
+			buildPhases = (
+				9610C7252433A44B0061C757 /* Sources */,
+				9610C7262433A44B0061C757 /* Frameworks */,
+				9610C7272433A44B0061C757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9610C72B2433A44B0061C757 /* PBXTargetDependency */,
+			);
+			name = "NSLayoutConstraint-Animation-macOSUITests";
+			productName = "NSLayoutConstraint-Animation-macOSUITests";
+			productReference = 9610C7292433A44B0061C757 /* NSLayoutConstraint-Animation-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9610C7042433A44A0061C757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = zuolin;
+				TargetAttributes = {
+					9610C70B2433A44A0061C757 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					9610C71D2433A44B0061C757 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9610C70B2433A44A0061C757;
+					};
+					9610C7282433A44B0061C757 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 9610C70B2433A44A0061C757;
+					};
+				};
+			};
+			buildConfigurationList = 9610C7072433A44A0061C757 /* Build configuration list for PBXProject "NSLayoutConstraint-Animation-macOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9610C7032433A44A0061C757;
+			productRefGroup = 9610C70D2433A44A0061C757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9610C70B2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS */,
+				9610C71D2433A44B0061C757 /* NSLayoutConstraint-Animation-macOSTests */,
+				9610C7282433A44B0061C757 /* NSLayoutConstraint-Animation-macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9610C70A2433A44A0061C757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9610C7142433A44B0061C757 /* Assets.xcassets in Resources */,
+				9610C7172433A44B0061C757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9610C71C2433A44B0061C757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9610C7272433A44B0061C757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9610C7082433A44A0061C757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9610C7122433A44A0061C757 /* ViewController.swift in Sources */,
+				9610C7102433A44A0061C757 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9610C71A2433A44B0061C757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9610C7232433A44B0061C757 /* NSLayoutConstraint_Animation_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9610C7252433A44B0061C757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9610C72E2433A44B0061C757 /* NSLayoutConstraint_Animation_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9610C7202433A44B0061C757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9610C70B2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS */;
+			targetProxy = 9610C71F2433A44B0061C757 /* PBXContainerItemProxy */;
+		};
+		9610C72B2433A44B0061C757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9610C70B2433A44A0061C757 /* NSLayoutConstraint-Animation-macOS */;
+			targetProxy = 9610C72A2433A44B0061C757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9610C7152433A44B0061C757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9610C7162433A44B0061C757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9610C7302433A44B0061C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9610C7312433A44B0061C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9610C7332433A44B0061C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NSLayoutConstraint-Animation-macOS/NSLayoutConstraint_Animation_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSLayoutConstraint-Animation-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aeing.NSLayoutConstraint-Animation-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9610C7342433A44B0061C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NSLayoutConstraint-Animation-macOS/NSLayoutConstraint_Animation_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSLayoutConstraint-Animation-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aeing.NSLayoutConstraint-Animation-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9610C7362433A44B0061C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSLayoutConstraint-Animation-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aeing.NSLayoutConstraint-Animation-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSLayoutConstraint-Animation-macOS.app/Contents/MacOS/NSLayoutConstraint-Animation-macOS";
+			};
+			name = Debug;
+		};
+		9610C7372433A44B0061C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSLayoutConstraint-Animation-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aeing.NSLayoutConstraint-Animation-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSLayoutConstraint-Animation-macOS.app/Contents/MacOS/NSLayoutConstraint-Animation-macOS";
+			};
+			name = Release;
+		};
+		9610C7392433A44B0061C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSLayoutConstraint-Animation-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aeing.NSLayoutConstraint-Animation-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NSLayoutConstraint-Animation-macOS";
+			};
+			name = Debug;
+		};
+		9610C73A2433A44B0061C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "NSLayoutConstraint-Animation-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aeing.NSLayoutConstraint-Animation-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NSLayoutConstraint-Animation-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9610C7072433A44A0061C757 /* Build configuration list for PBXProject "NSLayoutConstraint-Animation-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9610C7302433A44B0061C757 /* Debug */,
+				9610C7312433A44B0061C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9610C7322433A44B0061C757 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Animation-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9610C7332433A44B0061C757 /* Debug */,
+				9610C7342433A44B0061C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9610C7352433A44B0061C757 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Animation-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9610C7362433A44B0061C757 /* Debug */,
+				9610C7372433A44B0061C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9610C7382433A44B0061C757 /* Build configuration list for PBXNativeTarget "NSLayoutConstraint-Animation-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9610C7392433A44B0061C757 /* Debug */,
+				9610C73A2433A44B0061C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9610C7042433A44A0061C757 /* Project object */;
+}
