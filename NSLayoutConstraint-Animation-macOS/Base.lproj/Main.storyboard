@@ -715,14 +715,27 @@
                                     <constraint firstAttribute="height" constant="96" id="5md-xs-nlx"/>
                                 </constraints>
                             </customView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Mvc-Zq-HHA">
+                                <rect key="frame" x="18" y="16" width="444" height="16"/>
+                                <textFieldCell key="cell" selectable="YES" title="Multiline Label" id="JcB-XR-ob6">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="Mvc-Zq-HHA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Fr1-Sq-0Gb" secondAttribute="bottom" constant="16" id="8Fp-fZ-bv6"/>
+                            <constraint firstItem="Mvc-Zq-HHA" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="9bg-1I-z3J"/>
                             <constraint firstItem="Fr1-Sq-0Gb" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="ADa-o5-7tu"/>
+                            <constraint firstAttribute="bottom" secondItem="Mvc-Zq-HHA" secondAttribute="bottom" constant="16" id="C3U-HA-pxV"/>
                             <constraint firstAttribute="trailing" secondItem="Fr1-Sq-0Gb" secondAttribute="trailing" id="HOT-pm-k4g"/>
+                            <constraint firstAttribute="trailing" secondItem="Mvc-Zq-HHA" secondAttribute="trailing" constant="20" id="RY6-Jm-JQh"/>
                             <constraint firstItem="Fr1-Sq-0Gb" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="WIH-aw-WwN"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="alertTextField" destination="Mvc-Zq-HHA" id="jIo-gb-vbT"/>
                         <outlet property="contentView" destination="Fr1-Sq-0Gb" id="ndv-3S-nnb"/>
                         <outlet property="contentViewTopSpaceLayoutConstraint" destination="ADa-o5-7tu" id="lcg-zW-cgJ"/>
                     </connections>

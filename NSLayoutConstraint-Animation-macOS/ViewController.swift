@@ -14,6 +14,8 @@ class ViewController: NSViewController {
     
     @IBOutlet private weak var contentViewTopSpaceLayoutConstraint: NSLayoutConstraint!
     
+    @IBOutlet private weak var alertTextField: NSTextField!
+    
     private var contentViewTrackingArea: NSTrackingArea?
     
     private let minTopConstant: CGFloat = -48.0
@@ -58,6 +60,12 @@ extension ViewController {
         if let layer = contentView.layer {
             layer.backgroundColor = NSColor.controlAccentColor.cgColor
         }
+        
+        alertTextField.maximumNumberOfLines = .zero
+        alertTextField.stringValue = "Please move the mouse to the upper View to see the effect"
+        alertTextField.font = NSFont.systemFont(ofSize: 24.0, weight: .bold)
+        alertTextField.textColor = NSColor.controlAccentColor
+        alertTextField.alignment = .center
     }
     
     private func contentViewAddTrackingArea() {
@@ -79,7 +87,7 @@ extension ViewController {
     }
     
     private func updateLayourConstraintWhenMouseEntered() {
-        if contentViewTopSpaceLayoutConstraint.priority != .defaultHigh {
+        if contentViewTopSpaceLayoutConstraint.constant != maxTopConstant {
             contentViewTopSpaceLayoutConstraint.animator().constant = maxTopConstant
         }
         
@@ -87,7 +95,7 @@ extension ViewController {
     }
         
     private func updateLayourConstraintWhenMouseExited() {
-        if contentViewTopSpaceLayoutConstraint.priority != .defaultHigh {
+        if contentViewTopSpaceLayoutConstraint.constant != minTopConstant {
             contentViewTopSpaceLayoutConstraint.animator().constant = minTopConstant
         }
         
